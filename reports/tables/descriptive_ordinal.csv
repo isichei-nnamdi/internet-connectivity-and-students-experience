@@ -1,0 +1,8 @@
+﻿item,n,mean,median,mode,median label,SD,variance,IQR,range,skew
+Q6 Academic use,83,4.53,5.0,Always,Always,0.69,0.47,1.0,3–5,-1.13
+Q8 Rating,84,3.1,3.0,Average,Average,1.08,1.17,1.0,1–5,-0.13
+Q9 Poor connectivity freq.,84,3.61,4.0,Sometimes,Often,0.89,0.8,1.0,2–5,0.03
+Q11 Disconnection freq.,83,3.23,3.0,Sometimes,Sometimes,0.99,0.98,1.0,1–5,0.06
+Q12 Satisfaction,82,3.07,3.0,Neutral,Neutral,0.99,0.98,1.0,1–5,-0.3
+Q15 Academic impact,83,3.11,3.0,Moderately,Moderately,1.01,1.02,2.0,1–5,-0.01
+Q17 Weekly spend,84,3.81,4.0,"Above ₦5,000","₦3,001–₦5,000",1.21,1.46,2.0,1–5,-0.79

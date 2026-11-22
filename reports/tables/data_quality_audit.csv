@@ -1,0 +1,28 @@
+check,column,rows_affected,finding,planned_action
+Missing value,Q3,6,6 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q6,1,1 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q7,1,1 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q11,1,1 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q12,1,1 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q13,2,2 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q14,1,1 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q15,1,1 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q16,1,1 blank answer(s),Keep row; leave as NaN and analyse with available-case n
+Missing value,Q19,37,37 blank answer(s),Optional open question; NaN = no comment
+Missing value,Q20,41,41 blank answer(s),Optional open question; NaN = no comment
+Inconsistent coding,Q8,31,"31 answers are digits 1-5, the rest are text labels; digits appear only from 20 Nov 19:52 (form edited mid-collection)",Map 1-5 to Very poor ... Excellent after validating direction
+Multiple answers to single-choice item,Q6,2,"Very often, Sometimes; Always, Very often",Adjacent options -> keep the one nearer the scale midpoint; contradictory options -> NaN
+Multiple answers to single-choice item,Q8,2,"Good, Average; Poor, Very poor",Adjacent options -> keep the one nearer the scale midpoint; contradictory options -> NaN
+Multiple answers to single-choice item,Q9,1,"Often, Sometimes",Adjacent options -> keep the one nearer the scale midpoint; contradictory options -> NaN
+Multiple answers to single-choice item,Q12,1,"Very satisfied, Very dissatisfied",Adjacent options -> keep the one nearer the scale midpoint; contradictory options -> NaN
+Multiple answers to single-choice item,Q15,2,"Highly, Moderately; Slightly, Not at all",Adjacent options -> keep the one nearer the scale midpoint; contradictory options -> NaN
+Inconsistent free-text categories,Q3,78,"27 raw spellings collapse to 20 after trimming/lower-casing (e.g. 'Computer science', 'Computer Science ', 'Computer')","Trim, standardise spelling, map to canonical department names"
+Logical inconsistency,Q2/Q3,1,Microbiology reported under Faculty of Social Sciences,Correct faculty to Natural and Applied Sciences (department is the more specific answer); flag row
+Formatting artefact,Q13,2,Trailing comma in checkbox answer,Strip before splitting
+Contradictory multi-select,Q10,4,'No noticeable difference' ticked together with a specific time slot,"Keep the specific time slot(s), drop the 'no difference' flag; record in log"
+Plausibility,Q1,1,500 Level respondent in Computer Science (a 4-year programme),Cannot be verified; retain (could be an extra year) and note
+Non-informative text,Q19,3,"Answers such as 'Yes', 'Non', 'Nil', 'A lot'",Flag as non-informative; exclude from theme coding
+Non-informative text,Q20,5,"Answers such as 'Yes', 'Non', 'Nil', 'A lot'",Flag as non-informative; exclude from theme coding
+Duplicates,all,0,No duplicate submissions found,None required
+Outliers,all,0,"All items are categorical/ordinal with fixed options, so there are no out-of-range numeric values. Spend (Q17) is banded",Screen ordinal extremes and response patterns instead (Section 6.3)
+Sample coverage,Q2,65,77% of respondents are from one faculty; n = 84 < 100 target,Report as limitation; compare NAS vs other faculties only descriptively

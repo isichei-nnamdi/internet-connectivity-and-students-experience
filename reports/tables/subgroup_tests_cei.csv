@@ -1,0 +1,8 @@
+grouping,test,p
+access_location,"Kruskal-Wallis H=3.65, p=0.600, ε²=0.00",0.6
+primary_provider,"Kruskal-Wallis H=4.24, p=0.236, ε²=0.02",0.236
+connection_type,"Kruskal-Wallis H=1.06, p=0.590, ε²=0.00",0.59
+level,"Kruskal-Wallis H=4.10, p=0.128, ε²=0.03",0.128
+faculty_group,"Mann-Whitney U=756, p=0.076, rank-biserial r=-0.27",0.076
+dept_group,"Kruskal-Wallis H=0.47, p=0.789, ε²=0.00",0.789
+weekly_spend,"Kruskal-Wallis H=9.17, p=0.057, ε²=0.07",0.057

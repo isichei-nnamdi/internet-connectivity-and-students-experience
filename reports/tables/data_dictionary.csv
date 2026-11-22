@@ -1,0 +1,89 @@
+﻿variable,description,type,values / coding,non_missing
+respondent_id,Anonymous respondent key,string,R001–R084,84
+timestamp,Form submission time,datetime,18–22 Nov 2026,84
+level,Q1 Current level of study,ordered category,100 Level < 200 Level < 300 Level < 400 Level < 500 Level,84
+faculty,Q2 Faculty (1 corrected),category,7 faculties,84
+department,"Q3 Department, standardised",category,'Not stated' if blank,84
+provider_raw,Q4 Network provider(s) as ticked,text (multi),,84
+connection_type,Q5 Main type of connection,category,Mobile data / Campus Wi-Fi / Personal Wi-Fi,84
+freq_use,Q6 Frequency of academic internet use,ordered category,Never < Rarely < Sometimes < Very often < Always,83
+access_location,Q7 Where internet is mostly accessed,category,,83
+rating,Q8 Rating of campus connection (harmonised),ordered category,Very poor < Poor < Average < Good < Excellent,84
+poor_freq,Q9 How often poor connectivity is experienced,ordered category,Never < Rarely < Sometimes < Often < Always,84
+best_time_raw,Q10 Time(s) of best connection as ticked,text (multi),,84
+disconnect,Q11 Frequency of unexpected disconnection,ordered category,Never < Rarely < Sometimes < Often < Always,83
+satisfaction,Q12 Satisfaction with provider speed,ordered category,Very dissatisfied < Dissatisfied < Neutral < Satisfied < Very satisfied,82
+affected_activity_raw,Q13 Academic activities affected (multi),text (multi),,82
+effect_type,Q14 Main way poor connectivity affects academics,category,,83
+impact,Q15 Extent of effect on academic performance,ordered category,Not at all < Slightly < Moderately < Highly < Very highly,83
+missed_deadline,Q16 Ever missed a deadline due to poor connectivity,category,Yes / No,83
+weekly_spend,Q17 Weekly spend on data,ordered category,"Below ₦1,000 < ₦1,000–₦2,000 < ₦2,001–₦3,000 < ₦3,001–₦5,000 < Above ₦5,000",84
+uni_should_raw,Q18 What university should do (multi),text (multi),,84
+challenge_text,Q19 Major challenge (open),text,,47
+suggestion_text,Q20 Additional suggestions (open),text,,43
+collection_date,Date of submission,date,,84
+rating_format,How Q8 was originally recorded,category,text label / numeric (1-5),84
+flag_multi_single,Items where a multi-answer was resolved,text,,84
+freq_use_code,Numeric code of freq_use,integer,1–5 (see label column),83
+rating_code,Numeric code of rating,integer,1–5 (see label column),84
+poor_freq_code,Numeric code of poor_freq,integer,1–5 (see label column),84
+disconnect_code,Numeric code of disconnect,integer,1–5 (see label column),83
+satisfaction_code,Numeric code of satisfaction,integer,1–5 (see label column),82
+impact_code,Numeric code of impact,integer,1–5 (see label column),83
+weekly_spend_code,Q17 as 1–5,integer,"1 = Below ₦1,000",84
+level_num,Q1 as number,integer,100–500,84
+missed_deadline_bin,Q16 as 0/1,integer,1 = Yes,83
+flag_faculty_corrected,Faculty corrected from department,boolean,,84
+dept_group,Computing vs other departments,category,Computing / Other departments / Not stated,84
+faculty_group,NAS vs other faculties,category,,84
+prov_9mobile,Q4 provider: 9mobile,integer,0/1,84
+prov_airtel,Q4 provider: airtel,integer,0/1,84
+prov_glo,Q4 provider: glo,integer,0/1,84
+prov_mtn,Q4 provider: mtn,integer,0/1,84
+prov_n_selected,Q4 provider: number of options ticked,integer,count,84
+flag_time_contradiction,Q10 contradiction resolved,boolean,,84
+time_afternoon_12_pm_3_pm,Q10 best time: afternoon 12 pm 3 pm,integer,0/1,84
+time_evening_4_pm_7_pm,Q10 best time: evening 4 pm 7 pm,integer,0/1,84
+time_morning_6_am_11_am,Q10 best time: morning 6 am 11 am,integer,0/1,84
+time_night_8_pm_onwards,Q10 best time: night 8 pm onwards,integer,0/1,84
+time_no_noticeable_difference,Q10 best time: no noticeable difference,integer,0/1,84
+time_n_selected,Q10 best time: number of options ticked,integer,count,84
+act_attending_online_classes,Q13 activity affected: attending online classes,integer,0/1,82
+act_downloading_lecture_materials,Q13 activity affected: downloading lecture materials,integer,0/1,82
+act_online_examinations,Q13 activity affected: online examinations,integer,0/1,82
+act_online_research,Q13 activity affected: online research,integer,0/1,82
+act_submitting_assignments,Q13 activity affected: submitting assignments,integer,0/1,82
+act_watching_educational_videos,Q13 activity affected: watching educational videos,integer,0/1,82
+act_n_selected,Q13 activity affected: number of options ticked,integer,count,82
+uni_improve_existing_network_infrastructure,Q18 university action: improve existing network infrastructure,integer,0/1,84
+uni_install_more_wi_fi_hotspots,Q18 university action: install more wi fi hotspots,integer,0/1,84
+uni_other,Q18 university action: other,integer,0/1,84
+uni_partner_with_telecommunications_providers,Q18 university action: partner with telecommunications providers,integer,0/1,84
+uni_provide_affordable_internet_access,Q18 university action: provide affordable internet access,integer,0/1,84
+uni_n_selected,Q18 university action: number of options ticked,integer,count,84
+primary_provider,"Q4 single provider, or 'Multiple SIMs'",category,MTN / Glo / Airtel / Multiple SIMs,84
+best_time_single,Q10 single slot or 'Multiple slots',category,,84
+challenge_text_informative,Open answer is informative,boolean,,84
+suggestion_text_informative,Open answer is informative,boolean,,84
+chal_slow_speed,Q19 theme: slow speed,integer,0/1; NaN if no informative answer,44
+chal_no_weak_signal_dead_zones,Q19 theme: no weak signal dead zones,integer,0/1; NaN if no informative answer,44
+chal_drops_instability,Q19 theme: drops instability,integer,0/1; NaN if no informative answer,44
+chal_online_classes_disrupted,Q19 theme: online classes disrupted,integer,0/1; NaN if no informative answer,44
+chal_research_downloads_videos,Q19 theme: research downloads videos,integer,0/1; NaN if no informative answer,44
+chal_exams_portal_assignments,Q19 theme: exams portal assignments,integer,0/1; NaN if no informative answer,44
+chal_calls_messaging,Q19 theme: calls messaging,integer,0/1; NaN if no informative answer,44
+chal_congestion_overload,Q19 theme: congestion overload,integer,0/1; NaN if no informative answer,44
+chal_location_specific_faculty_lt_hostel,Q19 theme: location specific faculty lt hostel,integer,0/1; NaN if no informative answer,44
+chal_wi_fi_access,Q19 theme: wi fi access,integer,0/1; NaN if no informative answer,44
+sugg_more_wi_fi_hotspots,Q20 theme: more wi fi hotspots,integer,0/1; NaN if no informative answer,38
+sugg_starlink_satellite,Q20 theme: starlink satellite,integer,0/1; NaN if no informative answer,38
+sugg_partner_with_telecom_providers,Q20 theme: partner with telecom providers,integer,0/1; NaN if no informative answer,38
+sugg_affordable_or_free_access,Q20 theme: affordable or free access,integer,0/1; NaN if no informative answer,38
+sugg_improve_network_infrastructure,Q20 theme: improve network infrastructure,integer,0/1; NaN if no informative answer,38
+sugg_speed_reliability,Q20 theme: speed reliability,integer,0/1; NaN if no informative answer,38
+sugg_campus_wide_faculty_coverage,Q20 theme: campus wide faculty coverage,integer,0/1; NaN if no informative answer,38
+cei,Connectivity Experience Index,float,"0 (worst) – 100 (best); mean of Q8, rev-Q9, rev-Q11, Q12",84
+conn_group,Q8 collapsed,ordered category,Poor / Average / Good,84
+high_impact,Q15 ≥ Highly,integer,1 = Highly or Very highly,83
+cei_band,CEI banded,ordered category,Weak ≤40 / Fair 40–60 / Strong >60,84
+flag_pattern_check,Contradictory answer pattern (retained),boolean,,84

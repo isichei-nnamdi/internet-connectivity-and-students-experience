@@ -1,0 +1,457 @@
+﻿respondent_id,question,option
+R001,provider,MTN
+R001,provider,Airtel
+R002,provider,MTN
+R003,provider,MTN
+R003,provider,Airtel
+R004,provider,Airtel
+R005,provider,Glo
+R006,provider,MTN
+R007,provider,Glo
+R008,provider,Glo
+R009,provider,Glo
+R010,provider,MTN
+R011,provider,MTN
+R012,provider,MTN
+R013,provider,Glo
+R014,provider,MTN
+R014,provider,Airtel
+R015,provider,Glo
+R016,provider,MTN
+R017,provider,MTN
+R018,provider,MTN
+R019,provider,MTN
+R020,provider,MTN
+R021,provider,Airtel
+R022,provider,MTN
+R023,provider,MTN
+R023,provider,Glo
+R024,provider,Airtel
+R025,provider,MTN
+R026,provider,MTN
+R027,provider,MTN
+R028,provider,Glo
+R029,provider,Glo
+R030,provider,MTN
+R031,provider,Glo
+R032,provider,MTN
+R033,provider,MTN
+R034,provider,Airtel
+R035,provider,MTN
+R036,provider,Airtel
+R037,provider,MTN
+R038,provider,MTN
+R038,provider,Airtel
+R039,provider,Glo
+R040,provider,MTN
+R041,provider,MTN
+R042,provider,Airtel
+R043,provider,MTN
+R044,provider,MTN
+R045,provider,Glo
+R046,provider,Glo
+R047,provider,MTN
+R048,provider,Airtel
+R049,provider,Glo
+R050,provider,Airtel
+R051,provider,MTN
+R052,provider,Glo
+R053,provider,Airtel
+R054,provider,MTN
+R055,provider,MTN
+R056,provider,Glo
+R057,provider,MTN
+R058,provider,MTN
+R059,provider,MTN
+R060,provider,Airtel
+R061,provider,MTN
+R061,provider,Airtel
+R061,provider,9mobile
+R062,provider,MTN
+R063,provider,Airtel
+R063,provider,Glo
+R064,provider,Glo
+R065,provider,Airtel
+R066,provider,MTN
+R066,provider,Airtel
+R067,provider,MTN
+R068,provider,Airtel
+R069,provider,MTN
+R070,provider,Glo
+R071,provider,Glo
+R072,provider,Airtel
+R073,provider,Glo
+R074,provider,Airtel
+R075,provider,MTN
+R076,provider,MTN
+R077,provider,Glo
+R078,provider,Glo
+R079,provider,MTN
+R079,provider,Airtel
+R079,provider,Glo
+R080,provider,Glo
+R081,provider,Glo
+R082,provider,MTN
+R082,provider,Airtel
+R083,provider,MTN
+R084,provider,Glo
+R001,best_time,No noticeable difference
+R002,best_time,No noticeable difference
+R003,best_time,Night (8 PM onwards)
+R004,best_time,Morning (6 AM–11 AM)
+R005,best_time,No noticeable difference
+R006,best_time,Night (8 PM onwards)
+R007,best_time,Afternoon (12 PM–3 PM)
+R008,best_time,Evening (4 PM–7 PM)
+R009,best_time,Morning (6 AM–11 AM)
+R010,best_time,No noticeable difference
+R011,best_time,Night (8 PM onwards)
+R012,best_time,Night (8 PM onwards)
+R013,best_time,Night (8 PM onwards)
+R014,best_time,Evening (4 PM–7 PM)
+R015,best_time,Night (8 PM onwards)
+R016,best_time,No noticeable difference
+R017,best_time,No noticeable difference
+R018,best_time,Night (8 PM onwards)
+R019,best_time,No noticeable difference
+R020,best_time,Night (8 PM onwards)
+R021,best_time,No noticeable difference
+R022,best_time,No noticeable difference
+R023,best_time,Night (8 PM onwards)
+R024,best_time,Afternoon (12 PM–3 PM)
+R025,best_time,No noticeable difference
+R026,best_time,No noticeable difference
+R027,best_time,Morning (6 AM–11 AM)
+R028,best_time,No noticeable difference
+R029,best_time,Evening (4 PM–7 PM)
+R030,best_time,No noticeable difference
+R031,best_time,Night (8 PM onwards)
+R032,best_time,Evening (4 PM–7 PM)
+R033,best_time,Night (8 PM onwards)
+R034,best_time,Night (8 PM onwards)
+R035,best_time,Morning (6 AM–11 AM)
+R036,best_time,Afternoon (12 PM–3 PM)
+R037,best_time,No noticeable difference
+R038,best_time,Night (8 PM onwards)
+R039,best_time,Night (8 PM onwards)
+R040,best_time,Night (8 PM onwards)
+R041,best_time,No noticeable difference
+R042,best_time,Afternoon (12 PM–3 PM)
+R043,best_time,Afternoon (12 PM–3 PM)
+R044,best_time,Evening (4 PM–7 PM)
+R045,best_time,No noticeable difference
+R046,best_time,No noticeable difference
+R047,best_time,Afternoon (12 PM–3 PM)
+R048,best_time,Morning (6 AM–11 AM)
+R049,best_time,Evening (4 PM–7 PM)
+R050,best_time,Night (8 PM onwards)
+R051,best_time,Night (8 PM onwards)
+R052,best_time,No noticeable difference
+R053,best_time,Morning (6 AM–11 AM)
+R053,best_time,Evening (4 PM–7 PM)
+R054,best_time,Evening (4 PM–7 PM)
+R055,best_time,Night (8 PM onwards)
+R056,best_time,Night (8 PM onwards)
+R057,best_time,Evening (4 PM–7 PM)
+R058,best_time,Night (8 PM onwards)
+R059,best_time,No noticeable difference
+R060,best_time,Morning (6 AM–11 AM)
+R061,best_time,Morning (6 AM–11 AM)
+R061,best_time,Night (8 PM onwards)
+R062,best_time,Morning (6 AM–11 AM)
+R062,best_time,Night (8 PM onwards)
+R063,best_time,Morning (6 AM–11 AM)
+R064,best_time,Afternoon (12 PM–3 PM)
+R065,best_time,Morning (6 AM–11 AM)
+R066,best_time,Afternoon (12 PM–3 PM)
+R067,best_time,Morning (6 AM–11 AM)
+R068,best_time,Night (8 PM onwards)
+R069,best_time,Night (8 PM onwards)
+R070,best_time,Evening (4 PM–7 PM)
+R071,best_time,Evening (4 PM–7 PM)
+R072,best_time,Night (8 PM onwards)
+R073,best_time,Afternoon (12 PM–3 PM)
+R074,best_time,Afternoon (12 PM–3 PM)
+R075,best_time,No noticeable difference
+R076,best_time,Night (8 PM onwards)
+R077,best_time,Evening (4 PM–7 PM)
+R078,best_time,Evening (4 PM–7 PM)
+R079,best_time,Afternoon (12 PM–3 PM)
+R079,best_time,Evening (4 PM–7 PM)
+R080,best_time,Evening (4 PM–7 PM)
+R081,best_time,No noticeable difference
+R082,best_time,Morning (6 AM–11 AM)
+R082,best_time,Afternoon (12 PM–3 PM)
+R082,best_time,Evening (4 PM–7 PM)
+R082,best_time,Night (8 PM onwards)
+R083,best_time,Night (8 PM onwards)
+R084,best_time,No noticeable difference
+R001,affected_activity,Downloading lecture materials
+R001,affected_activity,Online research
+R001,affected_activity,Attending online classes
+R002,affected_activity,Downloading lecture materials
+R002,affected_activity,Attending online classes
+R002,affected_activity,Online examinations
+R003,affected_activity,Downloading lecture materials
+R003,affected_activity,Online research
+R003,affected_activity,Attending online classes
+R003,affected_activity,Submitting assignments
+R003,affected_activity,Watching educational videos
+R005,affected_activity,Attending online classes
+R005,affected_activity,Submitting assignments
+R005,affected_activity,Watching educational videos
+R005,affected_activity,Online examinations
+R006,affected_activity,Online research
+R007,affected_activity,Attending online classes
+R008,affected_activity,Attending online classes
+R009,affected_activity,Attending online classes
+R010,affected_activity,Attending online classes
+R011,affected_activity,Downloading lecture materials
+R012,affected_activity,Attending online classes
+R013,affected_activity,Attending online classes
+R014,affected_activity,Downloading lecture materials
+R014,affected_activity,Online research
+R014,affected_activity,Attending online classes
+R014,affected_activity,Watching educational videos
+R015,affected_activity,Online research
+R016,affected_activity,Online research
+R016,affected_activity,Attending online classes
+R017,affected_activity,Watching educational videos
+R018,affected_activity,Attending online classes
+R019,affected_activity,Downloading lecture materials
+R019,affected_activity,Online research
+R019,affected_activity,Attending online classes
+R019,affected_activity,Submitting assignments
+R019,affected_activity,Watching educational videos
+R019,affected_activity,Online examinations
+R020,affected_activity,Online research
+R021,affected_activity,Downloading lecture materials
+R022,affected_activity,Online examinations
+R023,affected_activity,Attending online classes
+R024,affected_activity,Online research
+R025,affected_activity,Online research
+R026,affected_activity,Attending online classes
+R027,affected_activity,Online research
+R027,affected_activity,Watching educational videos
+R028,affected_activity,Attending online classes
+R029,affected_activity,Attending online classes
+R030,affected_activity,Downloading lecture materials
+R031,affected_activity,Attending online classes
+R032,affected_activity,Downloading lecture materials
+R033,affected_activity,Online research
+R034,affected_activity,Online research
+R035,affected_activity,Attending online classes
+R036,affected_activity,Attending online classes
+R037,affected_activity,Attending online classes
+R038,affected_activity,Online research
+R038,affected_activity,Attending online classes
+R038,affected_activity,Submitting assignments
+R039,affected_activity,Online research
+R039,affected_activity,Attending online classes
+R039,affected_activity,Watching educational videos
+R040,affected_activity,Online research
+R042,affected_activity,Online research
+R043,affected_activity,Online research
+R044,affected_activity,Submitting assignments
+R045,affected_activity,Online research
+R046,affected_activity,Downloading lecture materials
+R046,affected_activity,Online research
+R046,affected_activity,Attending online classes
+R046,affected_activity,Watching educational videos
+R046,affected_activity,Online examinations
+R047,affected_activity,Downloading lecture materials
+R048,affected_activity,Downloading lecture materials
+R049,affected_activity,Attending online classes
+R050,affected_activity,Attending online classes
+R051,affected_activity,Watching educational videos
+R052,affected_activity,Watching educational videos
+R053,affected_activity,Online research
+R053,affected_activity,Attending online classes
+R053,affected_activity,Submitting assignments
+R054,affected_activity,Downloading lecture materials
+R054,affected_activity,Online research
+R054,affected_activity,Attending online classes
+R055,affected_activity,Watching educational videos
+R056,affected_activity,Downloading lecture materials
+R056,affected_activity,Online research
+R056,affected_activity,Attending online classes
+R057,affected_activity,Downloading lecture materials
+R057,affected_activity,Online research
+R057,affected_activity,Attending online classes
+R058,affected_activity,Online research
+R059,affected_activity,Online research
+R059,affected_activity,Attending online classes
+R059,affected_activity,Watching educational videos
+R059,affected_activity,Online examinations
+R060,affected_activity,Downloading lecture materials
+R060,affected_activity,Online research
+R061,affected_activity,Downloading lecture materials
+R061,affected_activity,Online research
+R061,affected_activity,Attending online classes
+R061,affected_activity,Watching educational videos
+R061,affected_activity,Online examinations
+R062,affected_activity,Online research
+R063,affected_activity,Online research
+R063,affected_activity,Watching educational videos
+R064,affected_activity,Watching educational videos
+R065,affected_activity,Downloading lecture materials
+R065,affected_activity,Online research
+R065,affected_activity,Attending online classes
+R065,affected_activity,Watching educational videos
+R066,affected_activity,Downloading lecture materials
+R066,affected_activity,Submitting assignments
+R066,affected_activity,Watching educational videos
+R067,affected_activity,Downloading lecture materials
+R068,affected_activity,Watching educational videos
+R069,affected_activity,Downloading lecture materials
+R069,affected_activity,Online research
+R070,affected_activity,Attending online classes
+R071,affected_activity,Submitting assignments
+R072,affected_activity,Online research
+R073,affected_activity,Online research
+R074,affected_activity,Watching educational videos
+R075,affected_activity,Watching educational videos
+R076,affected_activity,Attending online classes
+R076,affected_activity,Watching educational videos
+R077,affected_activity,Attending online classes
+R078,affected_activity,Attending online classes
+R079,affected_activity,Downloading lecture materials
+R079,affected_activity,Online research
+R079,affected_activity,Attending online classes
+R079,affected_activity,Watching educational videos
+R080,affected_activity,Online research
+R081,affected_activity,Downloading lecture materials
+R082,affected_activity,Downloading lecture materials
+R082,affected_activity,Online research
+R082,affected_activity,Attending online classes
+R082,affected_activity,Submitting assignments
+R082,affected_activity,Watching educational videos
+R082,affected_activity,Online examinations
+R083,affected_activity,Watching educational videos
+R084,affected_activity,Online research
+R001,uni_should,Install more Wi-Fi hotspots
+R001,uni_should,Improve existing network infrastructure
+R002,uni_should,Install more Wi-Fi hotspots
+R002,uni_should,Provide affordable internet access
+R002,uni_should,Other
+R003,uni_should,Install more Wi-Fi hotspots
+R003,uni_should,Partner with telecommunications providers
+R003,uni_should,Provide affordable internet access
+R004,uni_should,Improve existing network infrastructure
+R005,uni_should,Improve existing network infrastructure
+R006,uni_should,Provide affordable internet access
+R007,uni_should,Improve existing network infrastructure
+R008,uni_should,Partner with telecommunications providers
+R009,uni_should,Install more Wi-Fi hotspots
+R010,uni_should,Improve existing network infrastructure
+R011,uni_should,Partner with telecommunications providers
+R012,uni_should,Install more Wi-Fi hotspots
+R013,uni_should,Install more Wi-Fi hotspots
+R014,uni_should,Partner with telecommunications providers
+R015,uni_should,Install more Wi-Fi hotspots
+R016,uni_should,Install more Wi-Fi hotspots
+R017,uni_should,Install more Wi-Fi hotspots
+R018,uni_should,Improve existing network infrastructure
+R019,uni_should,Install more Wi-Fi hotspots
+R019,uni_should,Improve existing network infrastructure
+R019,uni_should,Partner with telecommunications providers
+R019,uni_should,Provide affordable internet access
+R019,uni_should,Other
+R020,uni_should,Improve existing network infrastructure
+R021,uni_should,Install more Wi-Fi hotspots
+R022,uni_should,Provide affordable internet access
+R023,uni_should,Install more Wi-Fi hotspots
+R023,uni_should,Improve existing network infrastructure
+R024,uni_should,Improve existing network infrastructure
+R025,uni_should,Improve existing network infrastructure
+R026,uni_should,Install more Wi-Fi hotspots
+R027,uni_should,Partner with telecommunications providers
+R028,uni_should,Install more Wi-Fi hotspots
+R029,uni_should,Provide affordable internet access
+R030,uni_should,Install more Wi-Fi hotspots
+R031,uni_should,Install more Wi-Fi hotspots
+R032,uni_should,Install more Wi-Fi hotspots
+R033,uni_should,Install more Wi-Fi hotspots
+R033,uni_should,Improve existing network infrastructure
+R034,uni_should,Install more Wi-Fi hotspots
+R035,uni_should,Install more Wi-Fi hotspots
+R036,uni_should,Install more Wi-Fi hotspots
+R036,uni_should,Partner with telecommunications providers
+R037,uni_should,Install more Wi-Fi hotspots
+R038,uni_should,Install more Wi-Fi hotspots
+R038,uni_should,Partner with telecommunications providers
+R038,uni_should,Provide affordable internet access
+R039,uni_should,Install more Wi-Fi hotspots
+R039,uni_should,Improve existing network infrastructure
+R039,uni_should,Partner with telecommunications providers
+R040,uni_should,Install more Wi-Fi hotspots
+R041,uni_should,Improve existing network infrastructure
+R042,uni_should,Partner with telecommunications providers
+R043,uni_should,Improve existing network infrastructure
+R044,uni_should,Improve existing network infrastructure
+R045,uni_should,Improve existing network infrastructure
+R046,uni_should,Provide affordable internet access
+R047,uni_should,Install more Wi-Fi hotspots
+R048,uni_should,Partner with telecommunications providers
+R049,uni_should,Provide affordable internet access
+R050,uni_should,Provide affordable internet access
+R051,uni_should,Improve existing network infrastructure
+R052,uni_should,Install more Wi-Fi hotspots
+R053,uni_should,Improve existing network infrastructure
+R053,uni_should,Provide affordable internet access
+R054,uni_should,Install more Wi-Fi hotspots
+R054,uni_should,Improve existing network infrastructure
+R054,uni_should,Provide affordable internet access
+R055,uni_should,Improve existing network infrastructure
+R056,uni_should,Install more Wi-Fi hotspots
+R057,uni_should,Install more Wi-Fi hotspots
+R058,uni_should,Install more Wi-Fi hotspots
+R059,uni_should,Partner with telecommunications providers
+R059,uni_should,Provide affordable internet access
+R060,uni_should,Install more Wi-Fi hotspots
+R061,uni_should,Install more Wi-Fi hotspots
+R061,uni_should,Improve existing network infrastructure
+R061,uni_should,Partner with telecommunications providers
+R061,uni_should,Provide affordable internet access
+R062,uni_should,Partner with telecommunications providers
+R063,uni_should,Partner with telecommunications providers
+R064,uni_should,Install more Wi-Fi hotspots
+R065,uni_should,Install more Wi-Fi hotspots
+R065,uni_should,Improve existing network infrastructure
+R065,uni_should,Partner with telecommunications providers
+R065,uni_should,Provide affordable internet access
+R066,uni_should,Install more Wi-Fi hotspots
+R066,uni_should,Improve existing network infrastructure
+R066,uni_should,Partner with telecommunications providers
+R066,uni_should,Provide affordable internet access
+R067,uni_should,Provide affordable internet access
+R068,uni_should,Improve existing network infrastructure
+R069,uni_should,Partner with telecommunications providers
+R070,uni_should,Improve existing network infrastructure
+R071,uni_should,Partner with telecommunications providers
+R072,uni_should,Improve existing network infrastructure
+R073,uni_should,Improve existing network infrastructure
+R074,uni_should,Install more Wi-Fi hotspots
+R074,uni_should,Partner with telecommunications providers
+R075,uni_should,Install more Wi-Fi hotspots
+R075,uni_should,Improve existing network infrastructure
+R075,uni_should,Partner with telecommunications providers
+R075,uni_should,Provide affordable internet access
+R076,uni_should,Improve existing network infrastructure
+R077,uni_should,Provide affordable internet access
+R078,uni_should,Provide affordable internet access
+R079,uni_should,Install more Wi-Fi hotspots
+R079,uni_should,Improve existing network infrastructure
+R079,uni_should,Provide affordable internet access
+R080,uni_should,Improve existing network infrastructure
+R080,uni_should,Partner with telecommunications providers
+R081,uni_should,Install more Wi-Fi hotspots
+R081,uni_should,Partner with telecommunications providers
+R082,uni_should,Install more Wi-Fi hotspots
+R082,uni_should,Improve existing network infrastructure
+R082,uni_should,Partner with telecommunications providers
+R082,uni_should,Provide affordable internet access
+R083,uni_should,Provide affordable internet access
+R084,uni_should,Install more Wi-Fi hotspots
+R084,uni_should,Improve existing network infrastructure
+R084,uni_should,Provide affordable internet access

@@ -1,0 +1,22 @@
+﻿step,stage,column,rows_affected,action,rationale
+1,Structure,all,84,Renamed 21 question columns to short snake_case names; added respondent_id R001-R084,"Readable, code-friendly names; stable anonymous key"
+2,Standardise,all text,73,Trimmed leading/trailing spaces and collapsed repeated spaces,e.g. 'Computer science ' and 'Computer science' were counted separately
+3,Recode,rating,31,Converted digits 1-5 to labels (1=Very poor ... 5=Excellent),Form switched to a 1-5 scale on 20 Nov; direction validated in Section 6.1
+4,Resolve multi-answer,freq_use,2,"'Very often, Sometimes' -> 'Sometimes'; 'Always, Very often' -> 'Very often'",Adjacent: keep option nearer midpoint (conservative). Contradictory: unrecoverable -> NaN
+5,Resolve multi-answer,rating,2,"'Good, Average' -> 'Average'; 'Poor, Very poor' -> 'Poor'",Adjacent: keep option nearer midpoint (conservative). Contradictory: unrecoverable -> NaN
+6,Resolve multi-answer,poor_freq,1,"'Often, Sometimes' -> 'Sometimes'",Adjacent: keep option nearer midpoint (conservative). Contradictory: unrecoverable -> NaN
+7,Resolve multi-answer,satisfaction,1,"'Very satisfied, Very dissatisfied' -> NaN",Adjacent: keep option nearer midpoint (conservative). Contradictory: unrecoverable -> NaN
+8,Resolve multi-answer,impact,2,"'Highly, Moderately' -> 'Moderately'; 'Slightly, Not at all' -> 'Slightly'",Adjacent: keep option nearer midpoint (conservative). Contradictory: unrecoverable -> NaN
+9,Data type,"level, weekly_spend, missed_deadline",84,"Converted to ordered categoricals with numeric codes (level 100-500, spend 1-5, deadline 0/1)","Correct types allow sorting, medians and rank correlations"
+10,Standardise,department,60,Mapped 24 raw spellings to 19 canonical names; 6 blanks -> 'Not stated',Same department typed in different cases/forms; 'Computer' read as Computer Science (NAS faculty)
+11,Correct inconsistency,faculty,1,Social Sciences -> Natural and Applied Sciences for a Microbiology respondent,Microbiology is a science department; department answer is more specific
+12,Derive,"dept_group, faculty_group",84,Grouped small categories (computing vs other; NAS vs other faculties),Most departments have n<5; grouping allows stable subgroup comparison
+13,Standardise,"affected_activity, uni_should",2,Removed trailing commas before splitting,Formatting artefact
+14,Resolve contradiction,best_time,4,Dropped 'No noticeable difference' where a specific time slot was also ticked,A named slot is the more informative answer
+15,Derive,"prov_*, time_*, act_*, uni_*",84,Split 4 checkbox questions into 0/1 indicator columns + count of options ticked,Multi-select answers cannot be analysed as a single category
+16,Derive,primary_provider,10,Respondents naming >1 provider coded 'Multiple SIMs',Keeps one provider category per student for grouping
+17,Flag,challenge_text,3,"Flagged non-informative answers (e.g. 'Yes', 'Non', 'Nil', 'A lot')",Kept in data but excluded from theme coding
+18,Flag,suggestion_text,5,"Flagged non-informative answers (e.g. 'Yes', 'Non', 'Nil', 'A lot')",Kept in data but excluded from theme coding
+19,Derive,"chal_*, sugg_*",82,Keyword-based theme coding of open-ended answers (one answer can carry several themes),Turns free text into countable evidence; dictionary shown in notebook for transparency
+20,Derive,"cei, conn_group, high_impact, cei_band",84,"Created Connectivity Experience Index (0-100), 3-level connectivity group, binary high-impact flag",Summarise connectivity experience; enable group comparisons
+21,Flag,flag_pattern_check,1,Flagged internally contradictory answer pattern; retained,No basis to say which answer is wrong; sensitivity is negligible for 1 of 84 rows
